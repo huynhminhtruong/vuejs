@@ -149,7 +149,7 @@ hr {
 	padding: 0;
 	text-align: center;
 	color: #333;
-	background: url(../img/intro-bg.jpg) no-repeat center top;
+	background: url(../assets/img/header.png) no-repeat center top;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -173,8 +173,8 @@ hr {
 	margin-top: 20px;
 }
 header .intro-text {
-	padding-top: 200px;
-	padding-bottom: 200px;
+	padding-top: 30rem;
+	padding-bottom: 45rem;
 }
 /* About Section */
 #about {
@@ -186,8 +186,8 @@ header .intro-text {
 }
 #about img {
 	border-radius: 50%;
-	width: 160px;
-	height: 160px;
+	width: 10%;
+	height: 10%;
 	display: inline-block;
 }
 #about p {
