@@ -1,0 +1,30 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letschok</title>
+    <script src="vue.min.js"></script>
+</head>
+
+<body>
+	<div id="app">
+		{{ message }}
+		<button v-on:click="reverse">Reverse Text</button>
+	</div>
+	<script type="text/javascript">
+		var app = new Vue({
+			el: "#app", 
+			data: {
+				message: "Hello world"
+			}, 
+			methods: {
+				reverse: function(argument) {
+					this.message = this.message.split('').reverse().join('');
+				}
+			}
+		})
+	</script>
+</body>
