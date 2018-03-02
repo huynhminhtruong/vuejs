@@ -1,0 +1,40 @@
+{
+  "name": "vuejs-todolist",
+  "version": "1.0.0",
+  "description": "vuejs practice",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huynhminhtruong/vuejs.git"
+  },
+  "keywords": [
+    "vuejs",
+    "javascript"
+  ],
+  "author": "TruongHM Simon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huynhminhtruong/vuejs/issues"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "bower": "^1.8.2",
+    "consolidate": "^0.14.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "mongoose": "^4.6.7",
+    "path": "^0.12.7",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1",
+    "requirejs": "^2.3.2",
+    "routes": "^2.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "homepage": "https://github.com/huynhminhtruong/vuejs#readme"
+}
