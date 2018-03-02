@@ -6,12 +6,17 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Letschok</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <script src="jquery-3.2.1.slim.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="vue.min.js"></script>
 </head>
 
 <body>
 	<div id="app">
 		{{ message }}
+		<input type="text" name="" v-model="message" />
 		<button v-on:click="reverse">Reverse Text</button>
 	</div>
 	<script type="text/javascript">
